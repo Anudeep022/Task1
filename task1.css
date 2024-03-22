@@ -1,0 +1,222 @@
+#header {
+    height: 90px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: darkblue;
+}
+
+#header1 {
+
+    background-color: lightblue;
+    height: 50px;
+    width: 25%;
+    position: absolute;
+    top: 4%;
+    left: 470px;
+    text-align: center;
+    border: 2px solid lightcoral;
+    display: flex;
+    align-items: center;
+    align-items: top;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+}
+
+#head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#topic {
+    height: 220px;
+    width: 100%;
+}
+
+.topic1 {
+    height: 220px;
+    width: 20%;
+    float: left;
+}
+
+.topic2 {
+    position: relative;
+    background-image: linear-gradient(to right,rgb(47, 45, 45),lightgray);;
+    height: 210px;
+    width: 85%;
+
+}
+
+.topic3 {
+    height: 220px;
+    width: 100%;
+}
+
+span {
+    position: relative;
+    top: -15px;
+}
+
+button {
+    position: relative;
+    top: -5px;
+}
+
+#head1 {
+    position: relative;
+    left: 10px;
+}
+
+#head3 {
+    position: relative;
+    left: -90px;
+}
+
+#head2 {
+    position: relative;
+    left: 60px;
+}
+
+#b1 {
+    position: relative;
+    top: 0px;
+    
+}
+
+b{
+    font-size: 24px;
+
+}
+p{
+    font-size: 11px;
+}
+#scroll{
+    position: relative;
+    top:-20px;
+    width: 100px;
+}
+
+/* laptop 1024px */
+@media screen and (max-width:1024px) {
+    #header1 {
+        position: relative;
+        left: 8px;
+    }
+}
+
+/* tab 768px */
+@media screen and (max-width:768px) {
+    #header1 {
+        position: relative;
+        left: -10px;
+    }
+
+    #head2 {
+        position: relative;
+        left: 40px;
+    }
+
+    #head3 {
+        position: relative;
+        left: -3px;
+    }
+
+    span {
+        position: relative;
+        left: 3px;
+    }
+
+    button {
+        position: relative;
+        left: 3px;
+        top: -20px;
+    }
+
+    #scroll {
+        position: relative;
+        left: 0px;
+        top: -20px;
+        width: 75px;
+    }
+}
+
+/* mobile 425px*/
+ @media screen and (max-width:450px)  
+{
+#header1 {
+    position: relative;
+    left: 0px;
+    font-size: small;
+    width: 130px;
+}
+
+#head1 {
+    position: relative;
+    left: 0px;
+}
+
+#head2 {
+    position: relative;
+    left: 12px;
+    font-size: small;
+}
+
+#head3 {
+    position: relative;
+    left: 10px;
+
+}
+
+#b1 {
+    position: relative;
+    left: -2px;
+    top: 5px;
+    
+}
+
+input {
+    width: 100px;
+}
+
+#topic{
+    height: 520px;;
+}
+
+.topic1{
+    position: relative;
+    width: 50%;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left:80px; 
+}
+h3{
+    width: 90%;
+    top:0px;
+    left: 50px;
+    display: flex;
+    justify-content: center;
+    
+ }
+ h5{
+    width: 90%;
+    top:0px;
+    left: 50px;
+    display: flex;
+    justify-content: center;
+    
+ }
+ button{
+    position: relative;
+    left:90px;
+    top: -30px;
+ }
+ b{
+    font-size: 20px;;
+ }
+}
